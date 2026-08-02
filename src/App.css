@@ -1,0 +1,24 @@
+@import "tailwindcss";
+body {
+  font-family: "Tajawal", sans-serif;
+  scroll-behavior: smooth;
+}
+::selection {
+  @apply bg-orange-500 text-white;
+}
+@layer utilities {
+  .btn-primary {
+    @apply bg-linear-to-r from-orange-500 to-orange-600;
+  }
+  .badge {
+    @apply bg-orange-900/50  border border-orange-800 p-1.5 px-3.5 rounded-full;
+  }
+}
+.pattern {
+  background-color: #000000;
+  opacity: 0.1;
+  background-image:
+    linear-gradient(#dddde4 2px, transparent 2px),
+    linear-gradient(to right, #dddde4 2px, #000000 2px);
+  background-size: 80px 80px;
+}
