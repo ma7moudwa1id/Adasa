@@ -5,6 +5,7 @@ import Home from "./pages/home/Home";
 import Blog from "./pages/blog/Blog";
 import NotFoundPage from "./pages/notFoundPage/NotFoundPage";
 import DetailsPage from "./pages/details-page/DetailsPage";
+import About from "./pages/About/About";
 function App() {
   const data = {
     posts: [
@@ -644,7 +645,7 @@ function App() {
       },
     },
   };
- window.scrollTo(0, 0);
+  window.scrollTo(0, 0);
   const router = createBrowserRouter([
     {
       path: "/",
@@ -665,6 +666,10 @@ function App() {
     {
       path: "/blog/:category/:slug",
       element: <DetailsPage data={data} />,
+    },
+    {
+      path: "/about",
+      element: <About data={data} />,
     },
   ]);
   return (

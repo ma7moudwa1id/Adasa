@@ -18,9 +18,9 @@ export default function Navbar() {
       <div className="bg-neutral-900 p-3.5 h-20 fixed top-0 left-0 right-0 z-50">
         <div className="container mx-auto w-full md:w-4/5 h-full flex justify-between">
           <div className="icon h-full flex gap-2.5 items-center">
-            <div className="h-full">
+            <Link className="h-full" to={"/"}>
               <img src={icon} alt="Adasa-Logo" className="h-full" />
-            </div>
+            </Link>
             <div className="flex flex-col justify-center">
               <h3 className="text-xl font-medium mb-0">عدسة</h3>
               <span className="text-[12px] text-orange-400">
