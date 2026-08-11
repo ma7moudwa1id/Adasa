@@ -102,9 +102,9 @@ export default function Navbar() {
             </ul>
           </nav>
           <div className="grid">
-            <button className="mt-3 py-1.5 bg-orange-500 rounded-full font-semibold hover:cursor-pointer hover:-translate-y-0.5 transition-transform duration-300">
+            <Link to={"/blog"} className="block text-center mt-3 py-1.5 bg-orange-500 rounded-full font-semibold hover:cursor-pointer hover:-translate-y-0.5 transition-transform duration-300">
               ابدأ القراءة
-            </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -62,14 +62,14 @@ export default function BlogDeatails({ post, posts }) {
                 المدونة
               </Link>
               <FontAwesomeIcon icon={faAngleLeft} className="text-gray-300" />
-              <span className="text-orange-400 text-sm font-semibold">
+              <span className="text-orange-400 text-sm text-center font-semibold">
                 {category}
               </span>
             </div>
             <div className="flex flex-col justify-between items-center mt-15">
               <div className=" w-full lg:w-[75%] space-y-5 ">
                 <div className="flex gap-4 items-center">
-                  <div className="bg-orange-500 font-semibold rounded-full py-1 px-2.5 w-fit">
+                  <div className="bg-orange-500 font-semibold rounded-full py-1 px-1.5 w-fit text-sm">
                     {category}
                   </div>
                   <div className="flex gap-2 items-center text-gray-300 font-medium">
