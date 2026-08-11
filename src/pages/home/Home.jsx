@@ -7,6 +7,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import News from "../../components/our-news/News";
 
 export default function Home({ data }) {
+  window.scrollTo(0, 0);
   return (
     <>
       <Navbar />
