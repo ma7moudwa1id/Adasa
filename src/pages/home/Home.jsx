@@ -10,7 +10,7 @@ export default function Home({ data }) {
   return (
     <>
       <Navbar />
-      <Main />
+      {/* <Main /> */}
       <Articles data={data} />
       <Categories categories={data.categories} />
       <LatestArticles posts={data.posts} />
