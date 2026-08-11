@@ -9,9 +9,9 @@ import News from "../../components/our-news/News";
 export default function Home({ data }) {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <Main />
-      <Articles data={data} />
+      {/* <Articles data={data} /> */}
       <Categories categories={data.categories} />
       <LatestArticles posts={data.posts} />
       <News posts={data.posts} />
