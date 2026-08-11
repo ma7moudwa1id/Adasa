@@ -88,7 +88,7 @@ export default function AboutCom({ posts }) {
       </section>
 
       <section className="bg-neutral-950 py-15">
-        <div className="container w-full md:w-5xl mx-auto">
+        <div className="container mx-auto w-full max-w-7xl px-4 md:px-6 lg:px-8">
           <div className="flex flex-col justify-center items-center">
             <div className="text-center">
               <div className="flex items-center justify-center space-x-3">
@@ -112,7 +112,7 @@ export default function AboutCom({ posts }) {
               <h5 className="text-xl font-bold group-hover:text-orange-500 transition-colors duration-300">
                 الجودة أولاً
               </h5>
-              <span className="block text-gray-400 text-sm">
+              <span className="block text-gray-400 text-sm text-center">
                 محتوي مدروس ومكتوب بخبرة
               </span>
             </div>
@@ -124,7 +124,7 @@ export default function AboutCom({ posts }) {
               <h5 className="text-xl font-bold group-hover:text-orange-500 transition-colors duration-300">
                 تركيز عملي
               </h5>
-              <span className="block text-gray-400 text-sm">
+              <span className="block text-gray-400 text-sm text-center">
                 أمثلة واقعية يمكنك تطبيقها اليوم
               </span>
             </div>
@@ -136,7 +136,7 @@ export default function AboutCom({ posts }) {
               <h5 className="text-xl font-bold group-hover:text-orange-500 transition-colors duration-300">
                 المجتمع
               </h5>
-              <span className="block text-gray-400 text-sm">
+              <span className="block text-gray-400 text-sm text-center">
                 تعلم مع آلاف المصورين
               </span>
             </div>
@@ -148,7 +148,7 @@ export default function AboutCom({ posts }) {
               <h5 className="text-xl font-bold group-hover:text-orange-500 transition-colors duration-300">
                 دائما محدث
               </h5>
-              <span className="block text-gray-400 text-sm">
+              <span className="block text-gray-400 text-sm text-center">
                 أحدث الاتجاهات وأفضل الممارسات
               </span>
             </div>
