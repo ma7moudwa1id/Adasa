@@ -19,7 +19,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 export default function AboutCom({ posts }) {
   return (
     <>
-      <section className=" min-h-dvh flex flex-col justify-center relative py-20">
+      <section className=" lg:min-h-dvh flex flex-col justify-center relative py-20">
         <div className="absolute -z-10 inset-0 pattern">
           <div className="overlay absolute top-[20%] left-[5%] w-90 h-100 bg-radial from-orange-500"></div>
         </div>
@@ -104,7 +104,7 @@ export default function AboutCom({ posts }) {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-10 gap-4">
+          <div className="grid grid-cols-2 lg:grid-cols-4 mt-10 gap-4">
             <div className="category flex flex-col justify-center items-center relative space-y-3 bg-neutral-900 p-4.5 border-2 border-neutral-800 rounded-2xl group hover:cursor-pointer hover:bg-orange-500/20 transition-colors duration-300">
               <div className="text-orange-500 text-4xl">
                 <FontAwesomeIcon icon={faBullseye} />

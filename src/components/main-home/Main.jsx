@@ -13,85 +13,100 @@ import { Link } from "react-router";
 export default function Main() {
   return (
     <>
-      <section className=" min-h-dvh flex flex-col justify-center relative overflow-hidden py-20">
-        <div className="absolute -z-10 inset-0 pattern">
+      <section className="relative isolate overflow-hidden pt-28 pb-12 lg:min-h-dvh flex flex-col justify-center items-center">
+        <div className="pointer-events-none absolute inset-0 -z-10 pattern">
+          <div className="absolute left-[5%] top-[20%] h-100 w-90 bg-radial from-orange-500/30 to-transparent blur-3xl" />
         </div>
 
-        <div className="container mt-20 mx-auto w-full max-w-7xl px-4 md:px-6 lg:px-8 flex flex-col items-center">
-          <div className="badge text-slate-200">
-            مرحباً بك في عدسة
-          </div>
-          <div className="text-center">
-            <h1 className="text-[clamp(3rem,5vw,6rem)] text-center mt-8 font-bold flex flex-col">
+        <div className="container mx-auto flex w-full max-w-7xl flex-col items-center justify-center px-4 md:px-6 lg:px-8">
+          <div className="w-full max-w-5xl text-center flex flex-col items-center justify-center">
+            <div className="badge text-slate-200 w-fit">مرحباً بك في عدسة</div>
+
+            <h1 className="mt-8 flex w-full flex-col wrap-break-word text-center text-[clamp(2.5rem,5vw,6rem)] font-bold leading-tight">
               <span>
                 اكتشف{" "}
                 <span className="bg-linear-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent">
                   فن
                 </span>
               </span>
-              التصوير الفوتوغرافي
+
+              <span>التصوير الفوتوغرافي</span>
             </h1>
-            <p className="mt-8 text-gray-400 text-[clamp(1.3rem,1.5vw,3rem)]">
+
+            <p className="mx-auto mt-8 max-w-3xl text-[clamp(1.1rem,1.5vw,1.5rem)] leading-relaxed text-gray-400">
               انغمس في أسرار المحترفين ونصائح عملية لتطوير مهاراتك في التصوير.
             </p>
-            <div className="btn-actions mt-15 flex flex-wrap justify-center gap-5">
+
+            <div className="btn-actions mt-12 flex w-full flex-wrap justify-center gap-4">
               <Link
-                className="grow md:grow-0 group btn-primary py-4 px-4.5 font-medium text-xl rounded-full inline-block hover:-translate-y-0.5 transition-transform duration-200"
-                to={"/blog"}
+                className="group grow rounded-full bg-orange-500 px-5 py-4 text-center text-lg font-medium transition-transform duration-200 hover:-translate-y-0.5 md:grow-0"
+                to="/blog"
               >
                 استكشف المقالات{" "}
                 <FontAwesomeIcon
-                  className="text-sm group-hover:-translate-x-0.5 transition-transform duration-200"
+                  className="text-sm transition-transform duration-200 group-hover:-translate-x-0.5"
                   icon={faArrowLeftLong}
                 />
               </Link>
+
               <Link
-                className="grow md:grow-0 group bg-black border border-gray-600 py-4 px-4.5 font-medium text-xl rounded-full inline-block hover:bg-orange-800/20 hover:border-orange-500 hover:text-orange-500 transition-colors duration-200"
-                to={"/about"}
+                className="group grow rounded-full border border-gray-600 bg-black px-5 py-4 text-center text-lg font-medium transition-colors duration-200 hover:border-orange-500 hover:bg-orange-800/20 hover:text-orange-500 md:grow-0"
+                to="/about"
               >
                 <FontAwesomeIcon icon={faCircleInfo} /> اعرف المزيد
               </Link>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 justify-center mt-15">
-              <div className="py-3.5 flex flex-col col-span-1 items-center bg-neutral-900 border border-gray-800 rounded-2xl hover:scale-105 transition-all duration-200">
+            <div className="mt-12 grid w-full grid-cols-2 gap-4 md:grid-cols-4">
+              <div className="flex flex-col items-center rounded-2xl border border-gray-800 bg-neutral-900 px-3 py-4 transition-transform duration-200 hover:scale-105">
                 <FontAwesomeIcon
                   icon={faFileLines}
-                  className="text-orange-600 text-3xl mb-3"
+                  className="mb-3 text-3xl text-orange-600"
                 />
+
                 <h3 className="text-3xl font-semibold bg-linear-to-r from-orange-500 to-orange-400 bg-clip-text text-transparent">
                   +50
                 </h3>
+
                 <span className="text-gray-400">مقالة</span>
               </div>
-              <div className="py-3.5 flex flex-col col-span-1 items-center bg-neutral-900 border border-gray-800 rounded-2xl hover:scale-105 transition-all duration-200">
+
+              <div className="flex flex-col items-center rounded-2xl border border-gray-800 bg-neutral-900 px-3 py-4 transition-transform duration-200 hover:scale-105">
                 <FontAwesomeIcon
                   icon={faUsers}
-                  className="text-orange-600 text-3xl mb-3"
+                  className="mb-3 text-3xl text-orange-600"
                 />
+
                 <h3 className="text-3xl font-semibold bg-linear-to-r from-orange-500 to-orange-400 bg-clip-text text-transparent">
                   +10 ألف
                 </h3>
+
                 <span className="text-gray-400">قارئ</span>
               </div>
-              <div className="py-3.5 flex flex-col col-span-1 items-center bg-neutral-900 border border-gray-800 rounded-2xl hover:scale-105 transition-all duration-200">
+
+              <div className="flex flex-col items-center rounded-2xl border border-gray-800 bg-neutral-900 px-3 py-4 transition-transform duration-200 hover:scale-105">
                 <FontAwesomeIcon
                   icon={faFolderOpen}
-                  className="text-orange-600 text-3xl mb-3"
+                  className="mb-3 text-3xl text-orange-600"
                 />
+
                 <h3 className="text-3xl font-semibold bg-linear-to-r from-orange-500 to-orange-400 bg-clip-text text-transparent">
                   4
                 </h3>
+
                 <span className="text-gray-400">تصنيفات</span>
               </div>
-              <div className="py-3.5 flex flex-col col-span-1 items-center bg-neutral-900 border border-gray-800 rounded-2xl hover:scale-105 transition-all duration-200">
+
+              <div className="flex flex-col items-center rounded-2xl border border-gray-800 bg-neutral-900 px-3 py-4 transition-transform duration-200 hover:scale-105">
                 <FontAwesomeIcon
                   icon={faPen}
-                  className="text-orange-600 text-3xl mb-3"
+                  className="mb-3 text-3xl text-orange-600"
                 />
+
                 <h3 className="text-3xl font-semibold bg-linear-to-r from-orange-500 to-orange-400 bg-clip-text text-transparent">
                   6
                 </h3>
+
                 <span className="text-gray-400">كاتب</span>
               </div>
             </div>
