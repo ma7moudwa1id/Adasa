@@ -3,7 +3,7 @@ import React from "react";
 export default function Main() {
   return (
     <>
-      <section className="py-20 mt-20 relative">
+      <section className="pt-28 pb-12 relative">
         <div className="absolute -z-10 inset-0 pattern">
           <div className="overlay absolute top-[10%] left-[50%] -translate-x-1/2 w-full h-100 bg-radial from-orange-500"></div>
         </div>

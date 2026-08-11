@@ -48,7 +48,7 @@ export default function BlogDeatails({ post, posts }) {
 
   return (
     <>
-      <section className="py-20">
+      <section className="pt-28 pb-12">
         <div className="image relative w-full h-[70vh] lg:h-[80vh]">
           <img className="w-full h-full object-cover" src={image} alt={title} />
           <div className="overlay absolute inset-0 bg-linear-to-t from-black via-black/80 to-100%"></div>

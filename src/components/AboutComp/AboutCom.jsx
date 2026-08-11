@@ -19,12 +19,12 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 export default function AboutCom({ posts }) {
   return (
     <>
-      <section className=" lg:min-h-dvh flex flex-col justify-center relative py-20">
+      <section className=" lg:min-h-dvh flex flex-col justify-center relative pt-28 pb-12">
         <div className="absolute -z-10 inset-0 pattern">
           <div className="overlay absolute top-[20%] left-[5%] w-90 h-100 bg-radial from-orange-500"></div>
         </div>
 
-        <div className="container md:w-4xl mx-auto mt-20 p-2.5 flex flex-col items-center">
+        <div className="container md:w-4xl mx-auto flex flex-col items-center">
           <div className="badge text-slate-200">من نحن</div>
           <div className="text-center">
             <h1 className="text-[clamp(3rem,4.5vw,6rem)] text-center mt-3 font-bold flex flex-col">
