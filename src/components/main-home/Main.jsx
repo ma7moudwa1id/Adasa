@@ -15,7 +15,7 @@ export default function Main() {
     <>
       <section className=" min-h-dvh flex flex-col justify-center relative py-20">
         <div className="absolute -z-10 inset-0 pattern">
-          <div className="overlay absolute top-[20%] left-[5%] w-100 h-100 bg-radial from-orange-500"></div>
+          <div className="overlay absolute top-[20%] left-[5%] w-full h-100 bg-radial from-orange-500"></div>
         </div>
 
         <div className="container mt-20 mx-auto w-full max-w-7xl px-4 md:px-6 lg:px-8 flex flex-col items-center">

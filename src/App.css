@@ -7,10 +7,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-*{
-  border-color: red;
-  border-width: 1px;
-}
 ::selection {
   @apply bg-orange-500 text-white;
 }

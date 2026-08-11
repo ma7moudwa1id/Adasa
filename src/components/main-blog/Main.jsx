@@ -5,7 +5,7 @@ export default function Main() {
     <>
       <section className="py-20 mt-20 relative">
         <div className="absolute -z-10 inset-0 pattern">
-          <div className="overlay absolute top-[10%] left-[50%] -translate-x-1/2 w-100 h-100 bg-radial from-orange-500"></div>
+          <div className="overlay absolute top-[10%] left-[50%] -translate-x-1/2 w-full h-100 bg-radial from-orange-500"></div>
         </div>
 
         <div className="container mx-auto w-full max-w-7xl px-4 md:px-6 lg:px-8">
