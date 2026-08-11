@@ -11,7 +11,7 @@ export default function Home({ data }) {
     <>
       <Navbar />
       <Main />
-      {/* <Articles data={data} /> */}
+      <Articles data={data} />
       <Categories categories={data.categories} />
       <LatestArticles posts={data.posts} />
       <News posts={data.posts} />
