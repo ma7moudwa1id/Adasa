@@ -21,7 +21,7 @@ export default function AboutCom({ posts }) {
     <>
       <section className=" min-h-dvh flex flex-col justify-center relative py-20">
         <div className="absolute -z-10 inset-0 pattern">
-          <div className="overlay absolute top-[20%] left-[5%] w-100 h-100 bg-radial from-orange-500"></div>
+          <div className="overlay absolute top-[20%] left-[5%] w-90 h-100 bg-radial from-orange-500"></div>
         </div>
 
         <div className="container md:w-4xl mx-auto mt-20 p-2.5 flex flex-col items-center">
