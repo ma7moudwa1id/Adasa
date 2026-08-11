@@ -113,7 +113,7 @@ export default function AllArticles({ posts, categories }) {
           </div>
           <hr className="text-neutral-800 mt-5" />
         </div>
-        <div className="container w-[95%] md:w-[80%] mx-auto">
+        <div className="container mx-auto w-full max-w-7xl px-4 md:px-6 lg:px-8">
           <div className="veiw flex justify-between items-center">
             <div className="right">
               <span className="text-neutral-400 text-lg">
@@ -145,9 +145,11 @@ export default function AllArticles({ posts, categories }) {
               </div>
             </div>
           </div>
-          <div className={`mt-8 all-articles ${grid?"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3":"grid grid-cols-1"}  gap-4`}>
+          <div
+            className={`mt-8 all-articles ${grid ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3" : "grid grid-cols-1"}  gap-4`}
+          >
             {filterdPosts.map((post) => (
-              <Article post={post} grid={grid}/>
+              <Article post={post} grid={grid} />
             ))}
             {filterdPosts.length ? (
               ""
@@ -164,15 +166,3 @@ export default function AllArticles({ posts, categories }) {
     </>
   );
 }
-
-// {search
-//               ? posts.filter((post) => post.title.includes(search)).length
-//                 ? handleSearch().map((post) => (
-//                     <Article key={post.id} post={post} />
-//                   ))
-//                 : notfoundHandle()
-//               : filters === "all"
-//                 ? posts.map((post) => <Article key={post.id} post={post} />)
-//                 : filterHandle().map((post) => (
-//                     <Article key={post.id} post={post} />
-//                   ))}

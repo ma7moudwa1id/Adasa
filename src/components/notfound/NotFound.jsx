@@ -17,7 +17,7 @@ export default function NotFound() {
         <div className="absolute -z-10 inset-0 pattern">
           <div className="overlay absolute top-[20%] left-[5%] w-100 h-100 bg-radial from-orange-500"></div>
         </div>
-        <div className="container w-[95%] md:w-[80%] mx-auto">
+        <div className="container mx-auto w-full max-w-7xl px-4 md:px-6 lg:px-8">
           <div className="space-y-8 mt-10 flex flex-col justify-center items-center">
             <h1 className="text-9xl font-bold bg-linear-to-r from-orange-500 via-amber-300 to-orange-500 bg-clip-text text-transparent">
               404

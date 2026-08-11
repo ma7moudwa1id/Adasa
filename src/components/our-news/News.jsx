@@ -8,7 +8,7 @@ export default function News({posts}) {
     <>
       <section className="py-15 relative">
           <div className="overlay absolute top-0 left-[50%] -translate-x-1/2 w-100 h-100 -z-10 bg-radial from-orange-500/40 to-70%"></div>
-        <div className="container flex justify-center items-center  w-[95%] md:w-[80%] mx-auto ">
+        <div className="container flex justify-center items-center  mx-auto w-full max-w-7xl px-4 md:px-6 lg:px-8 ">
           <div className="bg-neutral-900 text-center py-20 px-10 border border-neutral-700 rounded-xl flex flex-col space-y-6 justify-center items-center min-w-2/3">
             <div className="size-15 flex justify-center items-center bg-linear-to-tl from-orange-600 to-orange-500 rounded-xl">
                 <FontAwesomeIcon icon={faEnvelope} className="text-3xl"/>

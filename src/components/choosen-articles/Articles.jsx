@@ -10,7 +10,7 @@ export default function Articles({ data }) {
   return (
     <>
       <section className="py-15">
-        <div className="container w-[95%] md:w-[80%] mx-auto">
+        <div className="container mx-auto w-full max-w-7xl px-4 md:px-6 lg:px-8">
           <div className="badge w-fit text-orange-500">مميز</div>
           <h2 className="mt-5 text-[clamp(3rem,5vw,4rem)] font-bold">
             مقالات مختارة

@@ -19,7 +19,7 @@ export default function Footer({ data }) {
   return (
     <>
       <section className="pt-15 pb-8 bg-neutral-950 border-t border-neutral-600">
-        <div className="container w-[95%] md:w-[80%] mx-auto">
+        <div className="container mx-auto w-full max-w-7xl px-4 md:px-6 lg:px-8">
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
             <div className="child space-y-4">
               <div className="flex gap-3 items-center">

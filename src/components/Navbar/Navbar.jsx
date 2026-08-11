@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <>
       <div className="bg-neutral-900 p-3.5 h-20 fixed top-0 left-0 right-0 z-50">
-        <div className="container mx-auto w-full md:w-4/5 h-full flex justify-between">
+        <div className="container mx-auto w-full max-w-7xl px-4 md:px-6 lg:px-8 h-full flex justify-between">
           <div className="icon h-full flex gap-2.5 items-center">
             <Link className="h-full" to={"/"}>
               <img src={icon} alt="Adasa-Logo" className="h-full" />

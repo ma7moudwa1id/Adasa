@@ -18,7 +18,7 @@ export default function Main() {
           <div className="overlay absolute top-[20%] left-[5%] w-100 h-100 bg-radial from-orange-500"></div>
         </div>
 
-        <div className="container mx-auto mt-20 p-2.5 flex flex-col items-center">
+        <div className="container mt-20 mx-auto w-full max-w-7xl px-4 md:px-6 lg:px-8 flex flex-col items-center">
           <div className="badge text-slate-200">
             مرحباً بك في عدسة
           </div>
@@ -32,7 +32,7 @@ export default function Main() {
               </span>
               التصوير الفوتوغرافي
             </h1>
-            <p className="mt-8 text-gray-400 text-[clamp(0.5rem,3.2vh,2rem)]">
+            <p className="mt-8 text-gray-400 text-[clamp(1.3rem,1.5vw,3rem)]">
               انغمس في أسرار المحترفين ونصائح عملية لتطوير مهاراتك في التصوير.
             </p>
             <div className="btn-actions mt-15 flex flex-wrap justify-center gap-5">

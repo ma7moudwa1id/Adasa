@@ -103,7 +103,7 @@ export default function BlogDeatails({ post, posts }) {
             </div>
           </div>
         </div>
-        <div className="container w-[95%] md:w-[80%] mx-auto">
+        <div className="container mx-auto w-full max-w-7xl px-4 md:px-6 lg:px-8">
           <div className="mt-8 grid grid-cols-12 gap-y-8 gap-x-4">
             <div className="right space-y-12 col-span-full lg:col-span-9 order-2 lg:order-1">
               <div className="badge rounded-xl! p-4!">
@@ -246,10 +246,10 @@ export default function BlogDeatails({ post, posts }) {
                   <div>
                     <ul className="space-y-2">
                       {post.content.split("##").map((c, i) => (
-                        <li className="py-2 px-3 flex items-center gap-2 hover:bg-orange-900/50 hover:text-orange-500 group transition-colors duration-300 cursor-pointer rounded-xl first:p-0 relative">
+                        <li className="p-2 flex items-center gap-2 hover:bg-orange-900/50 hover:text-orange-500 group transition-colors duration-300 cursor-pointer rounded-xl first:p-0 relative">
                           {i !== 0 ? (
                             <>
-                              <div className="py-2 px-3 flex items-center justify-center bg-neutral-800 rounded-xl group-hover:bg-orange-900/50 group-hover:text-orange-500 transition-colors duration-300">
+                              <div className="size-8 flex items-center justify-center bg-neutral-800 rounded-xl group-hover:bg-orange-900/50 group-hover:text-orange-500 transition-colors duration-300">
                                 {i}
                               </div>{" "}
                               {c.split("\n\n")[0]}

@@ -12,7 +12,7 @@ export default function Categories({ categories }) {
   return (
     <>
       <section className="bg-neutral-950 py-15">
-        <div className="container w-[95%] md:w-[80%] mx-auto">
+        <div className="container mx-auto w-full max-w-7xl px-4 md:px-6 lg:px-8">
           <div className="flex flex-col justify-center items-center">
             <div className="badge text-orange-500 w-fit">التصنيفات</div>
             <div className="text-center">
