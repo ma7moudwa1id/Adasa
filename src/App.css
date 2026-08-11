@@ -6,7 +6,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: red;
+}
+*{
+  outline: red;
 }
 ::selection {
   @apply bg-orange-500 text-white;
