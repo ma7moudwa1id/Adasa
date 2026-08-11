@@ -13,7 +13,7 @@ import { Link } from "react-router";
 export default function Main() {
   return (
     <>
-      <section className=" min-h-dvh flex flex-col justify-center relative py-20">
+      <section className=" min-h-dvh flex flex-col justify-center relative overflow-hidden py-20">
         <div className="absolute -z-10 inset-0 pattern">
           <div className="overlay absolute top-[20%] left-[5%] w-90 h-100 bg-radial from-orange-500"></div>
         </div>
